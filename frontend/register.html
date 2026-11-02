@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account | CodeAlpha Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="auth-container">
+
+        <div class="auth-card">
+
+            <h1>Create Account</h1>
+            <p>Join CodeAlpha Store today!</p>
+
+            <form id="register-form">
+
+                <label for="register-name">Full Name</label>
+                <input
+                    type="text"
+                    id="register-name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <label for="register-email">Email Address</label>
+                <input
+                    type="email"
+                    id="register-email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="register-password">Password</label>
+                <input
+                    type="password"
+                    id="register-password"
+                    placeholder="Create a password"
+                    minlength="6"
+                    required
+                >
+
+                <button type="submit">Create Account</button>
+
+            </form>
+
+            <p id="register-message"></p>
+
+            <p class="auth-link">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+
+            <a href="index.html">← Back to Store</a>
+
+        </div>
+
+    </div>
+
+    <script src="auth.js"></script>
+
+</body>
+</html>
